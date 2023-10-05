@@ -167,29 +167,54 @@ body{
     text-align: center;
 }
 
-/* pag de televisores */
+/* pag productos */
+#bandeja{
+    background-color:#000000;
+}
 
-#televisor .titulo{
+#bandeja .titulo{
+    margin-top: 10%;
     width: 100%;
     text-align: center;
-    margin-top: 115px;
+    color: #fff;
 }
-/* pag de celulares */
 
-#celular .titulo{
+#desayuno{
+    background-color:#ffffff;
+}
+
+#desayuno .titulo{
     width: 100%;
     text-align: center;
-    margin-top: 115px;
+    color: #000000;
 }
 
-/* configurar las img en celular */
-#celular img{
-    height: 600px;
+#postres{
+    background-color:#000000;
 }
 
+#postres .titulo{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+#picadas{
+    background-color:#ffffff;
+}
+
+#picadas .titulo{
+    width: 100%;
+    text-align: center;
+    color: #000000;
+}
 /* simulador */
 #simulador .titulo{
     width: 100%;
     text-align: center;
     margin-top: 8% !important;
+}
+
+.pro-img{
+    height: 75%;
 }
